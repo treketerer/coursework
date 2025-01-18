@@ -1,17 +1,22 @@
 <script setup lang="ts">
-import TheWelcome from '../components/LeftComponent.vue'
+import buttonBase from '../components/baseComponents/buttonBase.vue'
 </script>
-
 <template>
   <main>
-    <TheWelcome />
+    <h1>Легкое планирование туров</h1>
+    <buttonBase msg="Начать планировать" />
   </main>
 </template>
 
 <style>
 main {
-  /* width: 100%;
-  height: 100%;
-  background-color: red; */
+  align-items: center;
+  text-align: center;
+  /* background-color: rgb(227, 230, 244); */
+  border-radius: 50px;
+}
+
+h1 {
+  font-size: 80px;
 }
 </style>
